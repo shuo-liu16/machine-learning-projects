@@ -86,8 +86,7 @@ Identify-irises/
 ├── images/              # 可视化结果目录
 │   ├── iris_pairplot.png # 散点图矩阵
 │   └── iris_scatter.png  # 散点图
-├── train_model.py       # 模型训练脚本
-├── iris_visualization.ipynb # 数据可视化笔记本
+├── train_model.ipynb    # 模型训练笔记本（包含可视化与分析）
 ├── requirements.txt     # 项目依赖
 └── README.md            # 项目说明文档
 ```

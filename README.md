@@ -7,7 +7,8 @@
 ```text
 machine-learning-projects/
 ├── beginner/
-│   └── Identify-irises/          # 入门项目：鸢尾花分类
+│   ├── Identify-irises/          # 入门项目：鸢尾花分类（KNN）
+│   └── Identify-breast-cancer/   # 入门项目：乳腺癌检测（逻辑回归）
 ├── learning-experience/           # 学习笔记
 │   ├── Supervised-Machine-Learning.md
 │   ├── Advanced-Learning-Algorithms.md
@@ -21,7 +22,14 @@ machine-learning-projects/
 
 鸢尾花分类是一个经典的机器学习入门项目，使用 KNN（K-近邻）算法对鸢尾花数据集进行分类。
 
-### 2. learning-experience（学习笔记）
+### 2. beginner/Identify-breast-cancer（入门项目）
+
+乳腺癌检测项目使用逻辑回归算法对乳腺癌数据集进行二分类，预测肿瘤为良性或恶性。该项目重点展示了：
+
+- 数据预处理与特征标准化
+- 数据泄露问题与修复（fit_transform vs transform）
+
+### 3. learning-experience（学习笔记）
 
 系统性的机器学习学习笔记，包含三个核心主题：
 
